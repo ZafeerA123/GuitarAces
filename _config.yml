@@ -2,8 +2,8 @@ title: Nighthawk Pages
 description: "Class of 2025"
 owner_name: Zafeer Ahmed
 github_username: ZafeerA123
-github_repo: "zafeer_2025" 
-baseurl: "/GuiarAces"
+github_repo: "GuitarAces" 
+baseurl: "/GuitarAces"
 future: true
 remote_theme: jekyll/minima
 minima:
@@ -29,4 +29,6 @@ exclude:
   - node_modules/
   - _site/
   - vendor
+
+
 
