@@ -995,9 +995,9 @@ hide: true
         <span>🎯</span>
         Start Marketing Campaign
       </a>
-      <a href="#demo" class="button primary-button">
+      <a href="{{site.baseurl}}/Calendar" class="button primary-button">
         <span>📊</span>
-        View Analytics Demo
+        Calendar
       </a>
     </div>
   </div>
