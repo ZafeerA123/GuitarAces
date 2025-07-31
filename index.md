@@ -1,7 +1,7 @@
 ---
 layout: base
-title: GuitarAces Home
-description: Empowering Local Talent with Digital Strategy
+title: GuitarAces Marketing Solutions
+description: Empowering TheGuitarAces with Digital Marketing Strategy
 comments: true
 hide: true
 ---
@@ -10,13 +10,13 @@ hide: true
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuitarAces - Amplify Your Music Business</title>
+    <title>GuitarAces - Social Media Marketing Solutions</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <style>
-  /* Base styles with deep purple music theme */
+  /* Base styles with deep purple marketing theme */
   body {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ hide: true
     overflow-x: hidden;
   }
   
-  /* Dynamic gradient background with music wave animation */
+  /* Dynamic gradient background with marketing wave animation */
   .page-background {
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@ hide: true
     z-index: -3;
   }
   
-  /* Animated sound wave overlay */
+  /* Animated social media wave overlay */
   .wave-overlay {
     position: fixed;
     top: 0;
@@ -75,8 +75,8 @@ hide: true
     align-items: center;
   }
   
-  /* Floating music notes */
-  .music-notes {
+  /* Floating social media icons */
+  .social-icons {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -84,14 +84,14 @@ hide: true
     z-index: 0;
   }
   
-  .music-note {
+  .social-icon {
     position: absolute;
     color: rgba(147, 51, 234, 0.4);
     font-size: 24px;
-    animation: musicFloat 8s infinite ease-in-out;
+    animation: socialFloat 8s infinite ease-in-out;
   }
   
-  @keyframes musicFloat {
+  @keyframes socialFloat {
     0%, 100% { 
       transform: translateY(0px) rotate(0deg) scale(1);
       opacity: 0.4;
@@ -110,22 +110,22 @@ hide: true
     }
   }
   
-  .music-note:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
-  .music-note:nth-child(2) { top: 40%; left: 85%; animation-delay: 2s; font-size: 32px; }
-  .music-note:nth-child(3) { top: 70%; left: 15%; animation-delay: 4s; font-size: 20px; }
-  .music-note:nth-child(4) { top: 15%; left: 70%; animation-delay: 1s; font-size: 28px; }
-  .music-note:nth-child(5) { top: 80%; left: 80%; animation-delay: 3s; }
-  .music-note:nth-child(6) { top: 35%; left: 5%; animation-delay: 5s; font-size: 26px; }
+  .social-icon:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
+  .social-icon:nth-child(2) { top: 40%; left: 85%; animation-delay: 2s; font-size: 32px; }
+  .social-icon:nth-child(3) { top: 70%; left: 15%; animation-delay: 4s; font-size: 20px; }
+  .social-icon:nth-child(4) { top: 15%; left: 70%; animation-delay: 1s; font-size: 28px; }
+  .social-icon:nth-child(5) { top: 80%; left: 80%; animation-delay: 3s; }
+  .social-icon:nth-child(6) { top: 35%; left: 5%; animation-delay: 5s; font-size: 26px; }
   
-  /* Pulsing sound rings */
-  .sound-ring {
+  /* Pulsing marketing rings */
+  .marketing-ring {
     position: absolute;
     border: 2px solid rgba(147, 51, 234, 0.3);
     border-radius: 50%;
-    animation: soundPulse 4s infinite;
+    animation: marketingPulse 4s infinite;
   }
   
-  @keyframes soundPulse {
+  @keyframes marketingPulse {
     0% {
       transform: scale(0.8);
       opacity: 0.8;
@@ -140,7 +140,7 @@ hide: true
     }
   }
   
-  .sound-ring-1 {
+  .marketing-ring-1 {
     top: 30%;
     right: 20%;
     width: 120px;
@@ -148,7 +148,7 @@ hide: true
     animation-delay: 0s;
   }
   
-  .sound-ring-2 {
+  .marketing-ring-2 {
     bottom: 25%;
     left: 15%;
     width: 180px;
@@ -389,7 +389,7 @@ hide: true
     text-align: center;
   }
   
-  .music-stats {
+  .marketing-stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -480,7 +480,7 @@ hide: true
     left: 100%;
   }
   
-  .guitar-icon {
+  .marketing-icon {
     position: absolute;
     bottom: -15px;
     right: -15px;
@@ -668,7 +668,7 @@ hide: true
     inset: 0;
     border-radius: 24px;
     padding: 2px;
-    background: linear-gradient(135dev, rgba(147, 51, 234, 0.8), rgba(168, 85, 247, 0.2));
+    background: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(168, 85, 247, 0.2));
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
@@ -791,8 +791,8 @@ hide: true
     }
   }
   
-  /* Particle system for music visualization */
-  .music-particles {
+  /* Particle system for marketing visualization */
+  .marketing-particles {
     position: fixed;
     top: 0;
     left: 0;
@@ -802,7 +802,7 @@ hide: true
     z-index: -1;
   }
   
-  .music-particle {
+  .marketing-particle {
     position: absolute;
     background: linear-gradient(45deg, #a855f7, #c4b5fd);
     border-radius: 50%;
@@ -826,60 +826,60 @@ hide: true
   }
   
   /* Generate particle positions */
-  .music-particle:nth-child(1) { width: 6px; height: 6px; top: 20%; left: 10%; animation-delay: 0s; animation-duration: 12s; }
-  .music-particle:nth-child(2) { width: 8px; height: 8px; top: 35%; left: 85%; animation-delay: 2s; animation-duration: 10s; }
-  .music-particle:nth-child(3) { width: 5px; height: 5px; top: 60%; left: 15%; animation-delay: 4s; animation-duration: 14s; }
-  .music-particle:nth-child(4) { width: 10px; height: 10px; top: 75%; left: 80%; animation-delay: 1s; animation-duration: 9s; }
-  .music-particle:nth-child(5) { width: 7px; height: 7px; top: 45%; left: 5%; animation-delay: 6s; animation-duration: 11s; }
-  .music-particle:nth-child(6) { width: 9px; height: 9px; top: 15%; left: 70%; animation-delay: 3s; animation-duration: 13s; }
-  .music-particle:nth-child(7) { width: 6px; height: 6px; top: 85%; left: 25%; animation-delay: 5s; animation-duration: 8s; }
-  .music-particle:nth-child(8) { width: 11px; height: 11px; top: 50%; left: 90%; animation-delay: 7s; animation-duration: 15s; }
+  .marketing-particle:nth-child(1) { width: 6px; height: 6px; top: 20%; left: 10%; animation-delay: 0s; animation-duration: 12s; }
+  .marketing-particle:nth-child(2) { width: 8px; height: 8px; top: 35%; left: 85%; animation-delay: 2s; animation-duration: 10s; }
+  .marketing-particle:nth-child(3) { width: 5px; height: 5px; top: 60%; left: 15%; animation-delay: 4s; animation-duration: 14s; }
+  .marketing-particle:nth-child(4) { width: 10px; height: 10px; top: 75%; left: 80%; animation-delay: 1s; animation-duration: 9s; }
+  .marketing-particle:nth-child(5) { width: 7px; height: 7px; top: 45%; left: 5%; animation-delay: 6s; animation-duration: 11s; }
+  .marketing-particle:nth-child(6) { width: 9px; height: 9px; top: 15%; left: 70%; animation-delay: 3s; animation-duration: 13s; }
+  .marketing-particle:nth-child(7) { width: 6px; height: 6px; top: 85%; left: 25%; animation-delay: 5s; animation-duration: 8s; }
+  .marketing-particle:nth-child(8) { width: 11px; height: 11px; top: 50%; left: 90%; animation-delay: 7s; animation-duration: 15s; }
 </style>
 
-<!-- Page Background with Music Wave Animations -->
+<!-- Page Background with Marketing Wave Animations -->
 <div class="page-background"></div>
 <div class="wave-overlay"></div>
 
-<!-- Music Particles -->
-<div class="music-particles">
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
-  <div class="music-particle"></div>
+<!-- Marketing Particles -->
+<div class="marketing-particles">
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
+  <div class="marketing-particle"></div>
 </div>
 
 <!-- Hero Section -->
 <div class="hero-container">
-  <!-- Floating Music Notes -->
-  <div class="music-notes">
-    <div class="music-note">♪</div>
-    <div class="music-note">♫</div>
-    <div class="music-note">♪</div>
-    <div class="music-note">♬</div>
-    <div class="music-note">♫</div>
-    <div class="music-note">♪</div>
+  <!-- Floating Social Media Icons -->
+  <div class="social-icons">
+    <div class="social-icon">📱</div>
+    <div class="social-icon">📊</div>
+    <div class="social-icon">📧</div>
+    <div class="social-icon">📹</div>
+    <div class="social-icon">📈</div>
+    <div class="social-icon">💡</div>
   </div>
   
-  <!-- Sound Rings -->
-  <div class="sound-ring sound-ring-1"></div>
-  <div class="sound-ring sound-ring-2"></div>
+  <!-- Marketing Rings -->
+  <div class="marketing-ring marketing-ring-1"></div>
+  <div class="marketing-ring marketing-ring-2"></div>
   
   <div class="hero-section">
     <div class="hero-content">
-      <h1 class="hero-title">GuitarAces Amplifies Your Music Business</h1>
-      <p class="hero-subtitle">Transform your music education business with AI-powered student analytics, automated scheduling, and intelligent marketing tools that turn passion into profit.</p>
+      <h1 class="hero-title">TheGuitarAces: Social Media Marketing</h1>
+      <p class="hero-subtitle">Transform TheGuitarAces from word-of-mouth marketing to digital dominance with our comprehensive social media frameworks, video content generators, and automated scheduling tools.</p>
       <div class="button-container">
         <a href="#demo" class="button primary-button">
-          <span>🎸</span>
-          Start Your Journey
+          <span>🚀</span>
+          Boost Your Exposure
         </a>
         <a href="#features" class="button secondary-button">
           <span>📊</span>
-          Explore Features
+          View Solutions
         </a>
       </div>
     </div>
@@ -893,34 +893,34 @@ hide: true
             <div class="window-circle yellow"></div>
             <div class="window-circle green"></div>
           </div>
-          <div class="app-title">guitaraces.studio</div>
+          <div class="app-title">TheGuitarAces Marketing Dashboard</div>
         </div>
         <div class="window-content">
-          <h3 class="window-title">Student Progress Dashboard</h3>
-          <div class="music-stats">
+          <h3 class="window-title">Marketing Analytics</h3>
+          <div class="marketing-stats">
             <div class="stat-item">
-              <div class="stat-label">Active Students</div>
-              <div class="stat-value" data-target="127">0</div>
+              <div class="stat-label">Social Media Reach</div>
+              <div class="stat-value" data-target="15000">0</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Lessons This Week</div>
-              <div class="stat-value" data-target="89">0</div>
+              <div class="stat-label">Video Views</div>
+              <div class="stat-value" data-target="8500">0</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Success Rate</div>
-              <div class="stat-value" data-target="94">0%</div>
+              <div class="stat-label">Email Open Rate</div>
+              <div class="stat-value" data-target="68">0%</div>
             </div>
             <div class="stat-item">
-              <div class="stat-label">Revenue Growth</div>
-              <div class="stat-value" data-target="156">+0%</div>
+              <div class="stat-label">New Customers</div>
+              <div class="stat-value" data-target="24">+0</div>
             </div>
           </div>
           <div style="position: relative;">
             <a href="#demo" class="action-button">
-              Experience the Power of Music Analytics
-              <div class="guitar-icon">
+              Generate Your Marketing Content
+              <div class="marketing-icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="#a855f7">
-                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                  <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>
                 </svg>
               </div>
             </a>
@@ -937,8 +937,8 @@ hide: true
   
   <div class="features-content">
     <div class="section-header">
-      <h2 class="section-title">The Complete Music Business Ecosystem</h2>
-      <p class="section-description">GuitarAces provides everything music educators need to scale their business, from student management to marketing automation.</p>
+      <h2 class="section-title">Complete Marketing Ecosystem for TheGuitarAces</h2>
+      <p class="section-description">Our comprehensive solution addresses TheGuitarAces' marketing challenges with multiple digital strategies to increase exposure and attract new customers.</p>
     </div>
     
     <!-- Feature Cards with Enhanced Layout -->
@@ -948,21 +948,21 @@ hide: true
         <div class="feature-card">
           <div class="feature-icon">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="#a855f7">
-              <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm2 5h-2v-4h2v4zm0-5h-2V9h2v4z"/>
             </svg>
           </div>
-          <h3 class="feature-title">AI-Powered Student Analytics</h3>
-          <p class="feature-description">Track student progress with intelligent insights, predict learning outcomes, and personalize lesson plans for maximum engagement and success.</p>
+          <h3 class="feature-title">Email Marketing Tools</h3>
+          <p class="feature-description">Professional email templates and automated campaigns to nurture leads and keep TheGuitarAces top-of-mind with potential students and existing customers.</p>
         </div>
         
         <div class="feature-card">
           <div class="feature-icon">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="#a855f7">
-              <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+              <path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4z"/>
             </svg>
           </div>
-          <h3 class="feature-title">Smart Scheduling & Management</h3>
-          <p class="feature-description">Automate lesson scheduling, handle cancellations intelligently, and optimize your calendar for maximum productivity and revenue.</p>
+          <h3 class="feature-title">Video Content Generator</h3>
+          <p class="feature-description">AI-powered social media video idea generator that creates engaging content concepts tailored for guitar education and music learning audiences.</p>
         </div>
       </div>
 
@@ -971,11 +971,11 @@ hide: true
         <div class="feature-card">
           <div class="feature-icon">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="#a855f7">
-              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm2 5h-2v-4h2v4zm0-5h-2V9h2v4z"/>
+              <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
             </svg>
           </div>
-          <h3 class="feature-title">Marketing Automation Suite</h3>
-          <p class="feature-description">Generate engaging social media content, automate email campaigns, and convert online interest into walk-in students with our comprehensive marketing toolkit.</p>
+          <h3 class="feature-title">Smart Scheduling Calendar</h3>
+          <p class="feature-description">Intelligent video scheduling system with optimized upload times to maximize views, engagement, and interactions across all social media platforms for TheGuitarAces.</p>
         </div>
       </div>
     </div>
@@ -988,16 +988,16 @@ hide: true
   <div class="cta-ripple"></div>
   
   <div class="cta-content">
-    <h2 class="cta-title">Ready to Amplify Your Music Business?</h2>
-    <p class="cta-description">Join thousands of music educators who have transformed their teaching practice into a thriving business with GuitarAces.</p>
+    <h2 class="cta-title">Ready to Transform TheGuitarAces Marketing?</h2>
+    <p class="cta-description">Move beyond word-of-mouth marketing with our comprehensive digital solutions designed to increase exposure and attract more customers to TheGuitarAces.</p>
     <div class="cta-buttons">
-      <a href="#start" class="button primary-button">
-        <span>🚀</span>
-        Start Free Trial
+      <a href="{{site.baseurl}}/Generator" class="button primary-button">
+        <span>🎯</span>
+        Start Marketing Campaign
       </a>
       <a href="#demo" class="button primary-button">
-        <span>📹</span>
-        Watch Demo
+        <span>📊</span>
+        View Analytics Demo
       </a>
     </div>
   </div>
@@ -1005,10 +1005,64 @@ hide: true
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Animated counter for statistics
+  // Animated counter for marketing statistics
   const statValues = document.querySelectorAll('.stat-value');
   
-  function
+  function animateCounter(element) {
+    const target = parseInt(element.getAttribute('data-target'));
+    const increment = target / 200;
+    let current = 0;
+    
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        current = target;
+        clearInterval(timer);
+      }
+      
+      if (element.textContent.includes('%')) {
+        element.textContent = Math.floor(current) + '%';
+      } else if (element.textContent.includes('+')) {
+        element.textContent = '+' + Math.floor(current);
+      } else {
+        element.textContent = Math.floor(current).toLocaleString();
+      }
+    }, 20);
+  }
+  
+  // Intersection Observer for counter animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const statValue = entry.target.querySelector('.stat-value');
+        if (statValue && !statValue.classList.contains('animated')) {
+          statValue.classList.add('animated');
+          animateCounter(statValue);
+        }
+      }
+    });
+  }, { threshold: 0.5 });
+  
+  // Observe stat items
+  document.querySelectorAll('.stat-item').forEach(item => {
+    observer.observe(item);
+  });
+  
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+});
+</script>
 
 <script src="https://utteranc.es/client.js"
         repo="ZafeerA123/GuitarAces"
@@ -1018,3 +1072,8 @@ document.addEventListener('DOMContentLoaded', function() {
         crossorigin="anonymous"
         async>
 </script>
+
+</body>
+</html>
+
+

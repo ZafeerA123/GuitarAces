@@ -586,7 +586,7 @@ categories: [Final Project]
   
   <div class="trending-section" id="trendingSection">
     <h2 class="tooltip">🔥 Trending Today
-      <span class="tooltiptext">Feeling stuck? These are trending TikToks — refresh the page for a new batch!</span>
+      <span class="tooltiptext">(WARNING, CONTENT ). Feeling stuck? These are trending TikToks — refresh the page for a new batch!</span>
     </h2>
     <ul id="trendingList"></ul>
   </div>
