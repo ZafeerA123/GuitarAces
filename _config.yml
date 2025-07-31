@@ -1,0 +1,30 @@
+title: Nighthawk Pages 
+description: "Class of 2025"
+owner_name: Zafeer Ahmed
+github_username: ZafeerA123
+github_repo: "zafeer_2025" 
+baseurl: "/GuiarAces"
+future: true
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+# remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/dinky@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/time-machine@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-jupyter-notebook
+
+header_pages:
+  - navigation/blog.md
+  - navigation/search.md
+  - navigation/about.md
+  - navigation/soccer.md
+  - README4YML.md
+exclude:
+  - venv/
+  - .git/
+  - node_modules/
+  - _site/
