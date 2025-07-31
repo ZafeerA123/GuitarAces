@@ -871,7 +871,7 @@ hide: true
   <div class="hero-section">
     <div class="hero-content">
       <h1 class="hero-title">TheGuitarAces: Social Media Marketing</h1>
-      <p class="hero-subtitle">Transform TheGuitarAces from word-of-mouth marketing to digital dominance with our comprehensive social media frameworks, video content generators, and automated scheduling tools.</p>
+      <p class="hero-subtitle">Take TheGuitarAces from relying on word-of-mouth to growing online with easy-to-use social media plans, simple video tools, and automated posting.</p>
       <div class="button-container">
         <a href="#demo" class="button primary-button">
           <span>🚀</span>
@@ -989,7 +989,7 @@ hide: true
   
   <div class="cta-content">
     <h2 class="cta-title">Ready to Transform TheGuitarAces Marketing?</h2>
-    <p class="cta-description">Move beyond word-of-mouth marketing with our comprehensive digital solutions designed to increase exposure and attract more customers to TheGuitarAces.</p>
+    <p class="cta-description">Advanced digital solutions designed to increase exposure for TheGuitarAces.</p>
     <div class="cta-buttons">
       <a href="{{site.baseurl}}/Generator" class="button primary-button">
         <span>🎯</span>
