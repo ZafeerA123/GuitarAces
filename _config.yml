@@ -28,3 +28,5 @@ exclude:
   - .git/
   - node_modules/
   - _site/
+  - vendor
+
